@@ -123,10 +123,37 @@ body {
 }
 
 .app-download:nth-child(1) {
-    background-image: url('C:\Reriando o instagram/googleplay-button.png');
+    background-image: url('C:\Reriando o instagram/img/googleplay-button.png');
 }
 
 .app-download:nth-child(2) {
-    background-image: url('C:\Reriando o instagram/apple-button.png');
+    background-image: url('C:\Reriando o instagram/img/apple-button.png');
 }
 
+
+@media (max-width: 1024px){
+    .instagram-wrapper {
+        width: 90%;
+    }
+}
+
+@media (max-width: 550px){
+    body {
+        background-color: #ffffff;
+    }
+
+    .instagram-wrapper{
+        width: 90%;
+    }
+
+    .instagram-phone{
+        display: none;
+    }
+
+    .instagram-continue{
+        width: 100%;
+    }
+    .group{
+        border: 1px solid transparent;
+    }
+}
